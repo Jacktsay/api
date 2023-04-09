@@ -294,9 +294,9 @@ const Home: React.FC<HomeProps> = ({
       code: null,
       messageLines: [
         t(
-          'Make sure your OpenAI API key is set in the bottom left of the sidebar.',
+          'Make sure your API key is set in the bottom left of the sidebar.',
         ),
-        t('If you completed this step, OpenAI may be experiencing issues.'),
+        t('If you completed this step, API may be experiencing issues.'),
       ],
     } as ErrorMessage;
 

@@ -162,7 +162,7 @@ export const Chat: FC<Props> = memo(
             <div className="text-center text-lg text-black dark:text-white">
               <div className="mb-8">{`Chatbot UI is an open source clone of OpenAI's ChatGPT UI.`}</div>
               <div className="mb-2 font-bold">
-                Important: Chatbot UI is 100% unaffiliated with OpenAI.
+                Important: Chatbot UI is 100% unaffiliated.
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
@@ -176,12 +176,12 @@ export const Chat: FC<Props> = memo(
               </div>
               <div className="mb-2">
                 {t(
-                  'Please set your OpenAI API key in the bottom left of the sidebar.',
+                  'Please set your API key in the bottom left of the sidebar.',
                 )}
               </div>
               <div>
                 {t(
-                  "If you don't have an OpenAI API key, you can get one here: ",
+                  "If you don't have an API key, you can get one here: ",
                 )}
                 <a
                   href="https://platform.openai.com/account/api-keys"
